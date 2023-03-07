@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <!--Add header of file-->
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin Web Development Project Exercises</title>
+        <link rel="stylesheet" href="exstyles.css">
+        <Style>
+            p {
+                background-color: green;
+                color: white;
+                font-size: 18px;
+              }
+        </Style>
+    </head>
+
+    <!--Add body of file-->
+    <body>
+        <!--Exercise 1-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 1 (css-methods)</p>
+        <div class="e1div calign">Style me via the external method!</div>
+        <p>I would like to be styled with the internal method please</p>
+        <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+        <br>
+        <!--Exercise 2-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 2 (class-id-selectors)</p>
+        <div class="scolor ssize bcolor e1div calign">Number 1 - I'm a class!</div>
+        <div id="lsize" class="e1div wbckgrd calign">Number 2 - I'm one ID.</div>
+        <div class="scolor msize bcolor e1div calign">Number 3 - I'm a class, but cooler!</div>
+        <div id="msize" class="msize bcolor fweight e1div calign">Number 4 - I'm another ID.</div>
+        <div class="scolor ssize bcolor e1div calign">Number 5 - I'm a class!</div>
+        <br>
+        <!--Exercise 3-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 3 (grouping-selectors)</p>
+        <button class="clickme wcolor calign">Click Me!</button>
+        <button class="noclickme bcolor calign">No, Click Me!</button>
+        <br>
+        <!--Exercise 4-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 4 (chaining-selectors)</p>
+        <div>
+            <img class="avatar proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+            <img style="width: 200px; height: 400px;" class="avatar distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+          </div>
+          <!-- Use the classes ABOVE this line -->
+          <div>
+            <img class="original proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+            <img class="original distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+          </div>
+          <br>
+          <!--Exercise 5-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 5 (Descendant Combinator)</p>
+        <div class="container calign">
+            <p class="text wbckgrd">This should be styled.</p>
+          </div>
+          <p class="text wbckgrd">This should be unstyled.</p>
+          <p class="text wbckgrd">This should be unstyled.</p>
+          <div class="container calign">
+            <p class="text wbckgrd">This should be styled.</p>
+            <p class="text wbckgrd">This should be styled.</p>
+          </div>
+          <!--Exercise 6-->
+        <p class="extitle bcolor fweight wbckgrd">Exercise 6 (Cascade Fix)</p>
+        <p class="para wbckgrd">I'm just a paragraph with extra bold text!</p>
+        <p class="para small-para wbckgrd">I'm a smaller paragraph, also with extra bold text!</p>
+    
+        <button id="confirm-button" class="button confirm sizefont">Confirm</button>
+        <button id="cancel-button" class="button cancel sizefont">Cancel</button>
+    
+        <div class="text">I'm a div with thin text!</div>
+        <div class="text">I'm a div with thin text and a child div!
+          <div class="text child">I'm a smaller child div with extra bold text.</div>
+        </div>
+    </body>
+</html>

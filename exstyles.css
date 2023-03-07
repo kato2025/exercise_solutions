@@ -1,0 +1,130 @@
+* {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.e1div {
+    background-color: red;
+    font-size: 32px;
+}
+.fweight {
+    font-weight: bold;
+}
+.calign {
+    text-align: center;
+}
+.wbckgrd {
+    background-color: white;
+}
+.scolor {
+    background-color: hsl(351, 74%, 73%);
+}
+.bcolor {
+    color: black;
+}
+.wcolor {
+    color: white;
+}
+.ssize{
+    font-size: 18px;
+}
+#lsize{
+    font-size: 36px;
+    color: rgb(0, 0, 255);
+}
+.msize {
+    font-size: 24px;
+}
+#msize {
+    background-color: rgb(127, 255, 0);
+}
+.extitle {
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+.clickme {
+    background-color: black;
+    color: white;
+}
+.noclickme {
+    background-color: yellow;
+}
+.clickme,
+.noclickme {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: auto;
+}
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+}.text {
+    color: black;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .para.small-para {
+    font-size: 25.7px;
+  }
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .para {
+    font-size: 40px;
+  }
+  .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  .button.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  }
+  .button.cancel {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .sizefont {
+    width: 130px;
+    height: 60px;
+    font-size:25px;
+  }
+  .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 100;
+  }
+  div .text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 700;
+  }
