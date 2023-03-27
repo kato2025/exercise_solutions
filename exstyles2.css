@@ -154,6 +154,7 @@ a:hover {
 .containerimg {
     display: flex;
     justify-content: center;
+    justify-items: center;
 }
 img {
     display: flex;
@@ -172,3 +173,153 @@ img {
     margin-right: 21px;
     margin-left: 21px;
 }
+/* 5. Flex-Modal */
+.containermodal {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: white;
+  width: 670px;
+  font-size: 23.4px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.fmicon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 900;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  display: flex;
+}
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+.continue,
+.cancel {
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 600;     
+  font-size: 15px;
+}
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin-left: 60px;
+}
+button.cancel {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+  display: flex;
+}
+.fmtext {
+    display: flex;
+    padding-left: 60px;
+}
+.fmheader {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+}
+/* 6. Flex-Layout */
+.flheader {
+    display: flex;
+    justify-content: space-around;
+}
+.flllinks,
+.flrlinks {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: auto;
+}
+.flllinks {
+    margin-right: auto;
+}
+.flrlinks {
+    margin-right: 40px;
+}
+a .flanchor {
+    text-decoration: none;
+}
+.flllinks .flanchor:hover,
+.flrlinks .flanchor:hover {
+    color: blue;
+}
+.flbody {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flinputbox {
+    display: flex;
+    width: 410px;
+    height: 30px;
+    border: 1px solid rgb(215, 208, 208);
+    border-radius: 20px;
+}
+.flbuttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.flbuttons button {
+    display: flex;
+    background-color: #eeeeee;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 18px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 0px;
+}
+.flbuttons button:hover {
+    background-color: rgb(240, 193, 62);
+}
+.odinlogo {
+    display: flex;
+    flex-basis: 100px;
+}
+.flfooter {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-around;
+}
+/* 7. Flex-Layout-2 */
