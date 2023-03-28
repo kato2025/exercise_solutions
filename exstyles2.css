@@ -1,4 +1,8 @@
 
+/* main link */
+body .mainlink:hover {
+    color: rgb(28, 111, 236);
+}
 /* 1. Flex-Center */
 .containerfc {
     background-color: rgb(28, 111, 236);
@@ -6,6 +10,7 @@
     height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .fontfamily {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -278,7 +283,7 @@ a .flanchor {
     color: blue;
 }
 .flbody {
-    height: 70vh;
+    height: 76vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,5 +326,100 @@ a .flanchor {
     background-color: #eeeeee;
     display: flex;
     justify-content: space-around;
+    height: 50px;
 }
 /* 7. Flex-Layout-2 */
+.fl2body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.fl2header {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    background-color: purple;
+    border: 5px solid purple;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.fl2container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 700px;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fl2sidebar {
+    display: flex;
+    background-color: rgb(28, 111, 236);
+    flex-basis: 300px;
+    flex-shrink: 0;
+    height: auto;
+    padding: 16px;
+}
+.fl2content {
+    display: flex;
+    background-color: #FFF;
+    flex-basis: 1441px;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 32px;
+    height: auto;
+}
+.card {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    flex-basis: 335px;
+    height: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(248, 247, 247);
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 5px;
+}
+.fl2footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #d5d3d3;
+    color: purple;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fl2footer img,
+.fl2links li img {
+    display: flex;
+    max-width: 20px;
+    height: 18px;
+    margin-left: 6px;
+    padding-top: 6px;
+}
+.fl2footer div,
+.fl2footer img {
+    padding-top: 8px;
+}
+.fl2links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.fl2links li {
+    display: flex;
+    font-size: 24px;
+    color: #FFF;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.fl2links li img {
+    margin-right: 5px;
+}

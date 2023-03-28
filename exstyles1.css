@@ -1,3 +1,7 @@
+/* main link */
+body .mainlink:hover {
+  color: rgb(28, 111, 236);
+}
 * {
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
